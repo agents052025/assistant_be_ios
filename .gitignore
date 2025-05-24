@@ -1,0 +1,134 @@
+# ===========================
+# CrashCurse Backend .gitignore
+# ===========================
+
+# 📱 Mobile App (окремий репозиторій)
+CrashCurseApp/
+CrashCurseApp.xcodeproj/
+CrashCurseAppTests/
+CrashCurseAppUITests/
+*.xcworkspace/
+*.xcuserdata/
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🌍 Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# 🔐 Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 📊 Database
+*.db
+*.sqlite
+*.sqlite3
+database.db
+app.db
+
+# 📝 Logs
+*.log
+logs/
+log/
+
+# 🔄 IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 🧪 Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# 📦 Package managers
+.pip-log.txt
+.pip-delete-this-directory.txt
+
+# 🚀 Deployment
+.serverless/
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# 📋 Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# 🔧 System files
+*.pid
+*.seed
+*.pid.lock
+
+# 📸 Media files (якщо не потрібні в репозиторії)
+# uploads/
+# static/media/
+
+# 🎯 Specific to this project
+backup/old_*
+*.backup
+
+# 📡 API Documentation (генерується автоматично)
+docs/_build/
+
+# 🔒 Security
+*.pem
+*.key
+*.crt
+ssl/
+
+# 📊 Monitoring
+monitoring/
+metrics/
+
+# 🐳 Docker (якщо використовується)
+.dockerignore
+docker-compose.override.yml
+
+# ☁️ Cloud deployment
+.gcloudignore
+.aws/
+.azure/ 
